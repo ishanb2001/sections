@@ -11,14 +11,6 @@ img{
   margin-top: 1.5rem;
 }
 
-pyramid {
-  float: left;
-  padding-left: 1em, 2em;
-  max-width: *;
-  margin-left: 1.5rem;
-}
-*/
-
 .text {
   float: left;
   max-width: *;
@@ -32,18 +24,17 @@ h1{
 
 p{
     font-family: "Lato", "sans-serif";
-    margin: 1.5rem;
+    max-width: 25em;
 }
 
-a {
+.container{
   padding: .4em .75em .5em;
-  display: inline-block;
-  border-style: solid;
+  border: solid #666;
   font-family: "Lato", "sans-serif";
-  border-color: #333;
-  text-decoration: none;
-  border-radius: 8px;
-  color: #333;
-  margin: 1.5rem;
-  width: 25em
+  display: inline;
+}
+
+.container:hover {
+  background-color: #666;
+  color: #eee9de;
 }

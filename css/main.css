@@ -11,6 +11,10 @@ img{
   margin-top: 1.5rem;
 }
 
+div{
+  display: inline-block;
+  vertical-align: middle;
+}
 .text {
   float: left;
   max-width: *;

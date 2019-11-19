@@ -3,22 +3,31 @@ body{
 }
 
 img{
-  padding: 1em, 2em;
-  width: 25em;
+  width: 100%;
+  display: block;
+  margin: 1.5rem;
 }
 
 h1{
   font-family: "Lato", "sans-serif";
   color: #333;
+  margin: 1.5rem;
 }
 
 p{
     font-family: "Lato", "sans-serif";
+    margin: 1.5rem;
 }
 
-.container{
+a {
   padding: .4em .75em .5em;
   display: inline-block;
-  border: solid #666;
+  border-style: solid;
   font-family: "Lato", "sans-serif";
+  border-color: #333;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #333;
+  margin: 1.5rem;
+  width: 25em
 }

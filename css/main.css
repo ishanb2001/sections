@@ -1,14 +1,28 @@
+html{
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body{
   background-color: #eee9de;
   line-height: 1.5;
+  margin: 0;
+}
+
+*, *::before, ::after {
+  box-sizing: inherit;
 }
 
 img{
   float: left;
-  padding: 1em, 2em;
-  max-width: *;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
+  display: block;
+  width: inherit;
 }
 
 div{
@@ -19,11 +33,10 @@ div{
 }
 .text {
   float: left;
-  max-width: *;
   margin-left: 1.5rem;
 }
 
-h1{
+h2{
   font-family: "Lato", "sans-serif";
   color: #333;
 }

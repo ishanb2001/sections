@@ -21,8 +21,8 @@ img{
   float: left;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
-  display: block;
-  width: 23em;
+  display: inline-block;
+  width: 25em;
 }
 
 div{
@@ -40,6 +40,9 @@ div{
 h2{
   font-family: "Lato", "sans-serif";
   color: #333;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: .5em;
 }
 
 section {
@@ -52,7 +55,7 @@ section {
 
 p{
     font-family: "Lato", "sans-serif";
-    max-width: 25em;
+    max-width: 22em;
 }
 
 .text{
@@ -69,6 +72,7 @@ p{
   border: 3px solid #333;
   border: solid #666;
   font-size: 1.125em;
+  border-radius: 7px;
   font-family: "Lato", "sans-serif";
   display: inline;
   margin-bottom: 3rem;

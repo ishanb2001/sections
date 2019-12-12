@@ -18,11 +18,11 @@ body{
 }
 
 img{
-  float: left;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
   display: inline-block;
   width: 25em;
+  padding-right: 1.5em;
 }
 
 div{
